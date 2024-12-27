@@ -16,3 +16,33 @@ import org.junit.runner.RunWith;
         publish = true
 )
 public class CukesRunner {}
+
+/*
+    Run any framework which tools we need ?
+        - Maven - Build Management
+        - Java  - Execution
+
+        - Git   - VCS
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
