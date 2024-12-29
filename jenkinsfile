@@ -1,4 +1,4 @@
-pipeline {
+ pipeline {
     agent any
     parameters {
         string(name: 'TEST_TYPE', defaultValue: '@smoke', description: 'Type of test to run', trim: true)
