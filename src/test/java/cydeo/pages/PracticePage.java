@@ -36,10 +36,10 @@ public class PracticePage {
 
     public void login() {
 
-        //String username =System.getenv("USERNAME");
-        String username = ConfigurationReader.getProperty("username");
-        String password = ConfigurationReader.getProperty("password");
-        //String password = System.getenv("PASSWORD");
+        String username =System.getenv("USERNAME");
+        //String username = ConfigurationReader.getProperty("username");
+        //String password = ConfigurationReader.getProperty("password");
+        String password = System.getenv("PASSWORD");
         System.out.println("username = " + username);
         System.out.println("password = " + password);
 
